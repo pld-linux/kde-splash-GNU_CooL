@@ -13,18 +13,15 @@ Source0:	http://www.kde-look.org/content/files/12861-GNU.tar.gz
 # Source0-md5:	e2f29a50ceae3fa4b2bd6b6b3c8dcea7
 URL:		http://www.kde-look.org/content/show.php?content=12861
 Provides:	kde-splash
-Requires:	kdebase-core >= 3.0.3
-Obsoletes:	kde-splash
-Obsoletes:	kde-splash-default
-Obsoletes:	kde-splash-keramik
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Requires:	kdebase-desktop >= 9:3.2.0
 BuildArch:	noarch
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-"GNU CooL" KDE splash screen.
+"GNU CooL" KDE splash screen. Contains fancy picture of GNU ;-)
 
 %description -l pl
-Ekran startowy KDE "GNU CooL".
+Ekran startowy KDE "GNU CooL". Zawiera ¶mieszny obrazek GNU ;-)
 
 %prep
 %setup -q -n %{_splash}
