@@ -19,6 +19,7 @@ Obsoletes:	kde-splash
 Obsoletes:	kde-splash-default
 Obsoletes:	kde-splash-keramik
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildArch:	noarch
 
 %description
 "GNU CooL" KDE splash screen.
