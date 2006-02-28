@@ -9,11 +9,11 @@ Release:	2
 License:	GPL
 Group:		X11/Amusements
 #Source0:	http://www.kde-look.org/content/download.php?content=12861
-Source0:	http://www.kde-look.org/content/files/12861-GNU.tar.gz	
+Source0:	http://www.kde-look.org/content/files/12861-GNU.tar.gz
 # Source0-md5:	e2f29a50ceae3fa4b2bd6b6b3c8dcea7
 URL:		http://www.kde-look.org/content/show.php?content=12861
-Provides:	kde-splash
 Requires:	kdebase-desktop >= 9:3.2.0
+Provides:	kde-splash
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
