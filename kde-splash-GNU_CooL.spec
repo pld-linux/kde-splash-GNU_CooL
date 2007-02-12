@@ -2,7 +2,7 @@
 %define		_splash		GNU_CooL
 
 Summary:	KDE splash screen
-Summary(pl):	Ekran startowy KDE
+Summary(pl.UTF-8):   Ekran startowy KDE
 Name:		kde-splash-%{_splash}
 Version:	1.0
 Release:	2
@@ -20,8 +20,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 "GNU CooL" KDE splash screen. Contains fancy picture of GNU ;-)
 
-%description -l pl
-Ekran startowy KDE "GNU CooL". Zawiera ¶mieszny obrazek GNU ;-)
+%description -l pl.UTF-8
+Ekran startowy KDE "GNU CooL". Zawiera Å›mieszny obrazek GNU ;-)
 
 %prep
 %setup -q -n %{_splash}
